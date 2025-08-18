@@ -116,7 +116,7 @@ function getAllConfig(request, hostName, proxyList, page = 0) {
 
     // Build HTML
     const document = new Document(request);
-    document.setTitle("Welcome to <span class='text-blue-500 font-semibold'>netopen.web.id Proxy List</span>");
+    document.setTitle("Welcome to <span class='text-blue-500 font-semibold'>Latif.Dev.Id Proxy List</span>");
     document.addInfo(`Total: ${proxyList.length}`);
     document.addInfo(`Page: ${page}/${Math.floor(proxyList.length / PROXY_PER_PAGE)}`);
 

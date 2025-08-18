@@ -2,7 +2,7 @@ import { connect } from "cloudflare:sockets";
 
 // Variables
 const rootDomain = "inspektor-latif-dev.workers.dev"; // Ganti dengan domain utama kalian
-const serviceName = "vvipsgid"; // Ganti dengan nama workers kalian
+const serviceName = "vvipalregion"; // Ganti dengan nama workers kalian
 const apiKey = "d9c235a9973802d2b2e4067e2f457da204e10"; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
 const apiEmail = "inspektor.latif.dev@gmail.com"; // Ganti dengan email yang kalian gunakan
 const accountID = "b6a8513459b55400e798e74ec1502575"; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)

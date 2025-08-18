@@ -8,20 +8,22 @@ const apiEmail = "inspektor.latif.dev@gmail.com"; // Ganti dengan email yang kal
 const accountID = "b6a8513459b55400e798e74ec1502575"; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
 const zoneID = "v1.0-8f0d0a963979d04ec8ed52d5-96bbb5c953bb7ffbde2d09e965cb076ecc9a9d7046d129c0ff8ee7ac762887cce97dd1abe516c79f379e55d43afccf5966a7834c575247c76ffec0203c20b47794ae20586a1de55aff"; // Ganti dengan Zone ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
 let isApiReady = false;
-let proxyIP = "https://raw.githubusercontent.com/mrsyd-my/proxycf/refs/heads/main/ProxyList.txt";
+let proxyIP = "https://raw.githubusercontent.com/MASALAKHUDIN-LATIF404/Nautica-my-proxy/refs/heads/main/server-sg-id.txt";
 let cachedProxyList = [];
 
 // Constant
 const APP_DOMAIN = `${serviceName}.${rootDomain}`;
 const PORTS = [443, 80];
 const PROTOCOLS = [reverse("najort"), reverse("sselv"), reverse("ss")];
-const KV_PROXY_URL = "https://raw.githubusercontent.com/mrsyd-my/proxycf/refs/heads/main/kvProxyList.json";
-const PROXY_BANK_URL = "https://raw.githubusercontent.com/mrsyd-my/proxycf/refs/heads/main/ProxyList.txt";
+const KV_PROXY_URL = "https://raw.githubusercontent.com/FoolVPN-ID/Nautica/refs/heads/main/kvProxyList.json";
+const PROXY_BANK_URL = "https://raw.githubusercontent.com/FoolVPN-ID/Nautica/refs/heads/main/proxyList.txt";
 const DNS_SERVER_ADDRESS = "8.8.8.8";
 const DNS_SERVER_PORT = 53;
 const PROXY_HEALTH_CHECK_API = "https://id1.foolvpn.me/api/v1/check";
 const CONVERTER_URL = "https://api.foolvpn.me/convert";
-const DONATE_LINK = "https://suryd.biz.id";
+const DONATE_LINK = "https://trakteer.id/dickymuliafiqri/tip";
+const BAD_WORDS_LIST =
+  "https://gist.githubusercontent.com/adierebel/a69396d79b787b84d89b45002cb37cd6/raw/6df5f8728b18699496ad588b3953931078ab9cf1/kata-kasar.txt";
 const PROXY_PER_PAGE = 24;
 const WS_READY_STATE_OPEN = 1;
 const WS_READY_STATE_CLOSING = 2;

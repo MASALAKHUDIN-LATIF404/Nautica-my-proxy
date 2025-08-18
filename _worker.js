@@ -10,7 +10,7 @@ const apiEmail = ""; // Ganti dengan email yang kalian gunakan
 const accountID = ""; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
 const zoneID = ""; // Ganti dengan Zone ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
 let isApiReady = false;
-let proxyIP = "";
+let proxyIP = "https://raw.githubusercontent.com/MASALAKHUDIN-LATIF404/Nautica-my-proxy/refs/heads/main/server-sg-id.txt";
 let cachedProxyList = [];
 
 // Constant

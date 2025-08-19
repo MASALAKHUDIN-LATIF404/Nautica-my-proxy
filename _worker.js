@@ -8,7 +8,7 @@ const apiEmail = "inspektor.latif.dev@gmail.com"; // Ganti dengan email yang kal
 const accountID = "b6a8513459b55400e798e74ec1502575"; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
 const zoneID = "v1.0-8f0d0a963979d04ec8ed52d5-96bbb5c953bb7ffbde2d09e965cb076ecc9a9d7046d129c0ff8ee7ac762887cce97dd1abe516c79f379e55d43afccf5966a7834c575247c76ffec0203c20b47794ae20586a1de55aff"; // Ganti dengan Zone ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
 let isApiReady = false;
-let proxyIP = "https://raw.githubusercontent.com/FoolVPN-ID/Nautica/refs/heads/main/proxyList.txt";
+let proxyIP = "";
 let cachedProxyList = [];
 
 // Constant
